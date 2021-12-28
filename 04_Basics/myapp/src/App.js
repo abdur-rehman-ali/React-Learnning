@@ -3,11 +3,12 @@ import "./App.css";
 import Hello from "./components/Hello";
 import Welcome from "./components/Welcome";
 import Greet from "./components/Greet";
+import Message from "./components/Message";
 
 let App = () => {
   return (
     <div>
-      <Hello name="ali" aka="joyia">
+      {/* <Hello name="ali" aka="joyia">
         <p>Some extra information about ali</p>
       </Hello>
       <Hello name="root" aka="spiderman">
@@ -17,7 +18,8 @@ let App = () => {
       <Welcome name="joyia" />
       <Welcome name="saad" />
       <Welcome name="ali" />
-      <Greet />
+      <Greet /> */}
+      <Message/>
     </div>
   );
 };
