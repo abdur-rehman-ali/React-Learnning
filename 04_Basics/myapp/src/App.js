@@ -4,6 +4,7 @@ import Hello from "./components/Hello";
 import Welcome from "./components/Welcome";
 import Greet from "./components/Greet";
 import Message from "./components/Message";
+import Counter from "./components/Counter";
 
 let App = () => {
   return (
@@ -18,8 +19,9 @@ let App = () => {
       <Welcome name="joyia" />
       <Welcome name="saad" />
       <Welcome name="ali" />
-      <Greet /> */}
-      <Message/>
+      <Greet />
+      <Message/> */}
+      <Counter/>
     </div>
   );
 };
