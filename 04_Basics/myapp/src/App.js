@@ -5,6 +5,8 @@ import Welcome from "./components/Welcome";
 import Greet from "./components/Greet";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
+import ClassClick from "./components/ClassClick";
+import FunctionClick from "./components/FunctionClick";
 
 let App = () => {
   return (
@@ -22,6 +24,8 @@ let App = () => {
       <Greet />
       <Message/>
       <Counter/>
+      <ClassClick/>
+      <FunctionClick/>
     </div>
   );
 };
