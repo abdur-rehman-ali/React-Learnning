@@ -1,10 +1,15 @@
-let Hello = (props) => (
-  <div>
-    <h1>
-      Hello {props.name} a.k.a {props.aka}
-    </h1>
-    {props.children}
-  </div>
-);
+let Hello = (props) => {
+
+  //Destructuring of props
+  const {name,aka} = props;
+  return (
+    <div>
+      <h1>
+        Hello {name} a.k.a {aka}
+      </h1>
+      {props.children}
+    </div>
+  );
+};
 
 export default Hello;

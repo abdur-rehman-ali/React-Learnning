@@ -9,7 +9,7 @@ import Counter from "./components/Counter";
 let App = () => {
   return (
     <div>
-      {/* <Hello name="ali" aka="joyia">
+      <Hello name="ali" aka="joyia">
         <p>Some extra information about ali</p>
       </Hello>
       <Hello name="root" aka="spiderman">
@@ -20,7 +20,7 @@ let App = () => {
       <Welcome name="saad" />
       <Welcome name="ali" />
       <Greet />
-      <Message/> */}
+      <Message/>
       <Counter/>
     </div>
   );
