@@ -8,6 +8,7 @@ import Counter from "./components/Counter";
 import ClassClick from "./components/ClassClick";
 import FunctionClick from "./components/FunctionClick";
 import EventBind from "./components/EventBind";
+import Parent from "./components/Parent";
 
 let App = () => {
   return (
@@ -26,8 +27,9 @@ let App = () => {
       <Message/>
       <Counter/>
       <ClassClick/>
-      <FunctionClick/> */}
-      <EventBind/>
+      <FunctionClick/>
+      <EventBind/> */}
+      <Parent/>
     </div>
   );
 };
