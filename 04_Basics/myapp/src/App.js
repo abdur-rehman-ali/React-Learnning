@@ -7,11 +7,12 @@ import Message from "./components/Message";
 import Counter from "./components/Counter";
 import ClassClick from "./components/ClassClick";
 import FunctionClick from "./components/FunctionClick";
+import EventBind from "./components/EventBind";
 
 let App = () => {
   return (
     <div>
-      <Hello name="ali" aka="joyia">
+      {/* <Hello name="ali" aka="joyia">
         <p>Some extra information about ali</p>
       </Hello>
       <Hello name="root" aka="spiderman">
@@ -25,7 +26,8 @@ let App = () => {
       <Message/>
       <Counter/>
       <ClassClick/>
-      <FunctionClick/>
+      <FunctionClick/> */}
+      <EventBind/>
     </div>
   );
 };
